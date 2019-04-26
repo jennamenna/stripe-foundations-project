@@ -7,8 +7,19 @@
 }
 
 .footer {
-  background: #000;
-  color: #ffffff;
+  background:teal;
+  color: pink;
   padding: 25px;
   font-size: 1.5em;
+}
+
+.cat-land {
+  background: teal;
+  color: white !important;
+  font: 
+
+}
+.card {
+  background:white;
+  color: teal;
 }

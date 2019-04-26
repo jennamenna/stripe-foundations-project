@@ -4,6 +4,10 @@ function purchaseProduct(event) {
   alert('hello world');
 }
 
-function openProductModal() {
+function openProductModal(title, description) {
+console.log(title)
+
   $('#purchaseProductModal').modal('show')
+  let productTitle=document.querySelector('#productItemTitle')
+  productTitle.innerHTML=title
 }
